@@ -64,7 +64,7 @@ declare module '@twotalltotems/react-native-otp-input' {
     /**
      * Placeholder character to fill all inputs when the OTP is empty
      */
-    placeholderCharacter?: string;
+    placeholderCharacter?: array;
     /**
      * Placeholder text color of inputs
      */
