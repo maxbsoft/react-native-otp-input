@@ -16,7 +16,7 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
         keyboardAppearance: "default",
         keyboardType: "number-pad",
         clearInputs: false,
-        placeholderCharacter: "",
+        placeholderCharacter: [""],
         selectionColor: '#000',
     }
 
