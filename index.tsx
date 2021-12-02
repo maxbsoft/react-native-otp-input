@@ -206,7 +206,7 @@ export default class OTPInputView extends Component<InputProps, OTPInputViewStat
                     selectionColor={selectionColor}
                     secureTextEntry={secureTextEntry}
                     editable={editable}
-                    placeholder={Array.isArray(placeholderCharacter) ? placeholderCharacter[index] : placeholderCharacter}
+                    placeholder={placeholderCharacter[index]}
                     placeholderTextColor={placeholderTextColor || defaultPlaceholderTextColor}
                 />
             </View>
